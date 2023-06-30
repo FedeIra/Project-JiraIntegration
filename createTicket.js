@@ -115,7 +115,6 @@ function addAttachmentToJiraTicket(ticketId, attachmentKey) {
   const headers = {
     Authorization:
       'Basic ' + Utilities.base64Encode(JIRA_USERNAME + ':' + JIRA_PASSWORD),
-    // 'Content-Type': 'multipart/form-data',
     contentType: false,
     'X-Atlassian-Token': 'nocheck',
   };
