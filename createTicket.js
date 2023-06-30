@@ -1,9 +1,7 @@
-// Reemplaza 'URL_JIRA' con la URL de tu instancia de Jira
-const JIRA_URL = '';
+const JIRA_URL = ''; // URL de tu instancia de Jira. Ejemplo: https://proyecto.atlassian.net
 
-// Reemplaza 'USUARIO' y 'CONTRASEÑA' con tus credenciales de Jira
-const JIRA_USERNAME = '';
-const JIRA_PASSWORD = '';
+const JIRA_USERNAME = ''; // Email de usuario de Jira
+const JIRA_PASSWORD = ''; // API TOKEN DE JIRA: https://id.atlassian.com/manage-profile/security/api-tokens
 
 // Función que se ejecuta al enviar el formulario de Google
 function onSubmitForm(e) {
