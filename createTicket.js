@@ -94,7 +94,7 @@ function replaceArea(area) {
 function replaceSitio(sitio) {
   if (sitio === 'App') {
     return 'APP';
-  } else if (area === 'Web') {
+  } else if (sitio === 'Web') {
     return 'WEB';
   }
 }
